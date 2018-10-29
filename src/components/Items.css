@@ -1,0 +1,23 @@
+.itemCard {
+  height: 580px;
+  border: 1px solid #283593;
+}
+
+.itemTitle {
+  height: 2em;
+  text-align: center;
+}
+
+.img-fit {
+  object-fit: fill;
+  width: 100%;
+  margin: -21.875% 0;
+}
+
+.description {
+  height: 2em;
+}
+
+.special {
+  height: 1em;
+}
