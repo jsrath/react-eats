@@ -2,6 +2,8 @@
 
 A custom built React food delivery / restaurant site with an integrated shopping cart.
 
+See it in action: [https://reacteats.herokuapp.com](https://reacteats.herokuapp.com)
+
 ## Installation
 
     $ git clone https://github.com/jsrath/react-eats.git
