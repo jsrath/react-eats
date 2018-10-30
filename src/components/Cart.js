@@ -90,7 +90,7 @@ class Cart extends Component {
             </Table>
 
             {this.state.processOrder === true && this.props.cart.length !== 0 ? (
-              <Card className="w-75 p-3">
+              <Card className="p-3">
                 <form
                   onSubmit={this.props.handleSubmit}
                   data-orderquantity={this.props.totalQuantity}
@@ -114,7 +114,7 @@ class Cart extends Component {
                     Phone
                   </label>
                   <input type="text" onChange={this.handlePhone} value={this.state.phone} name="userName" className="form-control" />
-                  <Button type="submit" className="indigo darken-3 w-25 mt-4">
+                  <Button type="submit" className="indigo darken-3 mt-4">
                     Submit Order
                   </Button>
                 </form>
