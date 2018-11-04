@@ -14,22 +14,20 @@ class Cart extends Component {
   }
 
   finalizeOrder = () => {
-    this.setState(() => ({
-      processOrder: true,
-    }));
-  }
+    this.setState({ processOrder: true });
+  };
 
-  handleName = (event) => {
+  handleName = event => {
     this.setState({ name: event.target.value });
-  }
+  };
 
-  handleAddress = (event) => {
+  handleAddress = event => {
     this.setState({ address: event.target.value });
-  }
+  };
 
-  handlePhone = (event) => {
+  handlePhone = event => {
     this.setState({ phone: event.target.value });
-  }
+  };
 
   render() {
     return (
