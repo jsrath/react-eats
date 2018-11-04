@@ -11,27 +11,23 @@ class Cart extends Component {
       address: '',
       phone: '',
     };
-    this.finalizeOrder = this.finalizeOrder.bind(this);
-    this.handleName = this.handleName.bind(this);
-    this.handleAddress = this.handleAddress.bind(this);
-    this.handlePhone = this.handlePhone.bind(this);
   }
 
-  finalizeOrder() {
+  finalizeOrder = () => {
     this.setState(() => ({
       processOrder: true,
     }));
   }
 
-  handleName(event) {
+  handleName = (event) => {
     this.setState({ name: event.target.value });
   }
 
-  handleAddress(event) {
+  handleAddress = (event) => {
     this.setState({ address: event.target.value });
   }
 
-  handlePhone(event) {
+  handlePhone = (event) => {
     this.setState({ phone: event.target.value });
   }
 
