@@ -31,22 +31,22 @@ class Nav extends Component {
           <Collapse isOpen={this.state.collapse} navbar>
             <NavbarNav left>
               <NavItem className="pr-3 h-100">
-                <NavLink to="/starters">Starters</NavLink>
+                <NavLink to="/starters">Előételek</NavLink>
               </NavItem>
               <NavItem className="pr-3 h-100">
-                <NavLink to="/soups">Soups</NavLink>
+                <NavLink to="/soups">Levesek</NavLink>
               </NavItem>
               <NavItem className="pr-3 h-100">
-                <NavLink to="/mains">Main Dishes</NavLink>
+                <NavLink to="/mains">Főételek</NavLink>
               </NavItem>
               <NavItem className="pr-3 h-100">
-                <NavLink to="/pizzas">Pizza</NavLink>
+                <NavLink to="/pizzas">Pizzák</NavLink>
               </NavItem>
               <NavItem className="pr-3 h-100">
-                <NavLink to="/desserts">Dessert</NavLink>
+                <NavLink to="/desserts">Desszertek</NavLink>
               </NavItem>
               <NavItem className="pr-3 h-100">
-                <NavLink to="/drinks">Drinks</NavLink>
+                <NavLink to="/drinks">Italok</NavLink>
               </NavItem>
             </NavbarNav>
             <NavbarNav right className="mx-4">

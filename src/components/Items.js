@@ -48,19 +48,19 @@ class Items extends Component {
                       case 'Starter':
                         return (
                           <h6>
-                            <img src={startersIcon} alt="starter" /> Starter
+                            <img src={startersIcon} alt="starter" /> Előétel
                           </h6>
                         );
                       case 'Soup':
                         return (
                           <h6>
-                            <img src={soupsIcon} alt="soup" /> Soup
+                            <img src={soupsIcon} alt="soup" /> Leves
                           </h6>
                         );
                       case 'MainDish':
                         return (
                           <h6>
-                            <img src={mainDishesIcon} alt="main dish" /> Main Dish
+                            <img src={mainDishesIcon} alt="main dish" /> Főétel
                           </h6>
                         );
                       case 'Pizza':
@@ -73,13 +73,13 @@ class Items extends Component {
                         return (
                           <h6>
                             <img src={dessertsIcon} alt="dessert" />
-                            Dessert
+                            Desszert
                           </h6>
                         );
                       case 'Drink':
                         return (
                           <h6>
-                            <img src={drinksIcon} alt="drink" /> Drink
+                            <img src={drinksIcon} alt="drink" /> Ital
                           </h6>
                         );
                       default:
