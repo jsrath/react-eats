@@ -3,3 +3,14 @@
   left: 80px;
   top: 0;
 }
+
+.site-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5px;
+}
+
+.site-link a {
+  color: #fff;
+}

@@ -56,10 +56,17 @@ class Nav extends Component {
                   <span className="text-white badge badge-light mx-2"> {this.props.totalQuantity}</span>
                 </NavLink>
               </NavItem>
+              <NavItem className="site-link">
+                  <a href="https://www.jsrath.com"
+                    rel="noopener noreferrer nofollow"
+                    target="_blank">
+                    [ Developed by jsrath ]
+                </a>
+              </NavItem>
             </NavbarNav>
           </Collapse>
         </div>
-      </Navbar>
+      </Navbar >
     );
   }
 }
