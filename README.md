@@ -2,7 +2,7 @@
 
 A custom built React food delivery / restaurant site with an integrated shopping cart.
 
-See it in action: [https://reacteats.herokuapp.com](https://reacteats.herokuapp.com)
+See it in action: [https://react-eats.onrender.com](https://react-eats.onrender.com)
 
 ## Installation
 

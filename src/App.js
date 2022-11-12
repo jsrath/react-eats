@@ -8,7 +8,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      apiUrl: 'https://reacteats-backend.herokuapp.com/items',
+      apiUrl: 'https://react-eats-backend.onrender.com/items',
       cart: [],
       totalPrice: 0,
       totalQuantity: 0,
@@ -94,7 +94,7 @@ class App extends Component {
       phone: event.target.dataset.phone,
     };
 
-    fetch('https://reacteats-backend.herokuapp.com/orders', {
+    fetch('https://react-eats-backend.onrender.com/orders', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
